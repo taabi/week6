@@ -7,12 +7,25 @@
 //
 
 #import "AppDelegate.h"
+#import "MenuViewController.h"
+#import "MainViewController.h"
+#import "TabViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    MainViewController *mainView =[[MainViewController alloc]init];
+    MenuViewController *menuView =[[MenuViewController alloc]init];
+    
+    TabViewController *tabView=[[TabViewController alloc]init];
+    tabView.viewControllers=@[mainView,menuView];
+    
+    self.window.rootViewController = tabView;
+
+    
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

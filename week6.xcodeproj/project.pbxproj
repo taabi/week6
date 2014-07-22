@@ -19,6 +19,12 @@
 		13B1C9C0196F015E00C02F2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B1C9A8196F015E00C02F2A /* UIKit.framework */; };
 		13B1C9C8196F015E00C02F2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13B1C9C6196F015E00C02F2A /* InfoPlist.strings */; };
 		13B1C9CA196F015E00C02F2A /* week6Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B1C9C9196F015E00C02F2A /* week6Tests.m */; };
+		13B1C9D6196F0A4900C02F2A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B1C9D4196F0A4900C02F2A /* MainViewController.m */; };
+		13B1C9D7196F0A4900C02F2A /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B1C9D5196F0A4900C02F2A /* MainViewController.xib */; };
+		13B1C9DE196F0A7400C02F2A /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B1C9DC196F0A7400C02F2A /* MenuViewController.m */; };
+		13B1C9DF196F0A7400C02F2A /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B1C9DD196F0A7400C02F2A /* MenuViewController.xib */; };
+		13B1C9E3196F0B4E00C02F2A /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B1C9E1196F0B4E00C02F2A /* TabViewController.m */; };
+		13B1C9E4196F0B4E00C02F2A /* TabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B1C9E2196F0B4E00C02F2A /* TabViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,15 @@
 		13B1C9C5196F015E00C02F2A /* week6Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "week6Tests-Info.plist"; sourceTree = "<group>"; };
 		13B1C9C7196F015E00C02F2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		13B1C9C9196F015E00C02F2A /* week6Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = week6Tests.m; sourceTree = "<group>"; };
+		13B1C9D3196F0A4900C02F2A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		13B1C9D4196F0A4900C02F2A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		13B1C9D5196F0A4900C02F2A /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		13B1C9DB196F0A7400C02F2A /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		13B1C9DC196F0A7400C02F2A /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		13B1C9DD196F0A7400C02F2A /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		13B1C9E0196F0B4E00C02F2A /* TabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
+		13B1C9E1196F0B4E00C02F2A /* TabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
+		13B1C9E2196F0B4E00C02F2A /* TabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +126,12 @@
 				13B1C9B4196F015E00C02F2A /* AppDelegate.m */,
 				13B1C9B6196F015E00C02F2A /* Images.xcassets */,
 				13B1C9AB196F015E00C02F2A /* Supporting Files */,
+				13B1C9D3196F0A4900C02F2A /* MainViewController.h */,
+				13B1C9D4196F0A4900C02F2A /* MainViewController.m */,
+				13B1C9D5196F0A4900C02F2A /* MainViewController.xib */,
+				13B1C9DB196F0A7400C02F2A /* MenuViewController.h */,
+				13B1C9DC196F0A7400C02F2A /* MenuViewController.m */,
+				13B1C9DD196F0A7400C02F2A /* MenuViewController.xib */,
 			);
 			path = week6;
 			sourceTree = "<group>";
@@ -122,6 +143,9 @@
 				13B1C9AD196F015E00C02F2A /* InfoPlist.strings */,
 				13B1C9B0196F015E00C02F2A /* main.m */,
 				13B1C9B2196F015E00C02F2A /* week6-Prefix.pch */,
+				13B1C9E0196F0B4E00C02F2A /* TabViewController.h */,
+				13B1C9E1196F0B4E00C02F2A /* TabViewController.m */,
+				13B1C9E2196F0B4E00C02F2A /* TabViewController.xib */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -220,7 +244,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B1C9AF196F015E00C02F2A /* InfoPlist.strings in Resources */,
+				13B1C9D7196F0A4900C02F2A /* MainViewController.xib in Resources */,
 				13B1C9B7196F015E00C02F2A /* Images.xcassets in Resources */,
+				13B1C9E4196F0B4E00C02F2A /* TabViewController.xib in Resources */,
+				13B1C9DF196F0A7400C02F2A /* MenuViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +267,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B1C9B5196F015E00C02F2A /* AppDelegate.m in Sources */,
+				13B1C9D6196F0A4900C02F2A /* MainViewController.m in Sources */,
 				13B1C9B1196F015E00C02F2A /* main.m in Sources */,
+				13B1C9DE196F0A7400C02F2A /* MenuViewController.m in Sources */,
+				13B1C9E3196F0B4E00C02F2A /* TabViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
